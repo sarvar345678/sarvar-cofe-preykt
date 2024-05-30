@@ -1,0 +1,211 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: inherit;
+list-style: none;
+text-decoration: none;
+}
+header{
+background-color: blanchedalmond;
+cursor: pointer;
+height: 700px;
+}
+nav{
+display: flex;
+justify-content: space-between;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li a{
+padding-bottom: 7px;
+border-bottom: none;
+
+}
+nav ul{
+display: flex;
+gap: 40px;
+padding: 22px 0px;
+font-weight: 700;
+color: #333333;
+font-size: 12px;
+}
+.show{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+gap: 216px;
+}
+.left p{
+margin-top: 47px;
+margin-bottom: 47px ;
+font-weight: 400;
+font-size: 16px;
+width: 464px;
+}
+.left button{
+border-radius: 100px;
+padding: 16px 24px;
+background-color: green;
+color: white;
+font-weight: 500;
+font-size: 16px;
+border: none;
+}
+.left h1{
+font-size: 64px;
+font-weight: 700;
+color: black;
+line-height: 75px;
+}
+.image1{
+    position: absolute;
+    top: 70px;
+    left: 720px;
+    z-index: 1;
+}
+.image2{
+    height: 600px;
+    margin-bottom: 70px;
+    transform: translateY(100px);
+}
+.image1:hover{
+    animation-name: aylana;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+h2{
+    text-align: center;
+margin-top: 200px;
+margin-bottom: 42px;
+justify-content: center;
+}
+.wer{
+display: flex;
+}
+h4{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 40px;
+margin-right: 40px;
+}
+p{
+font-size: 25px;
+margin-left: 40px;
+margin-right: 40px;
+}
+.asd{
+width: 400px;
+height: 300px;
+}
+.ders{
+display: flex;
+}
+.ders ul {
+display: flex;
+gap: 50px;
+margin-top: 49px;
+margin-left: 300px;
+}
+footer{
+background-color: blanchedalmond;
+height: 100px;
+justify-content: center;
+align-items: center;
+margin-top: 70px;
+}
+.logo{
+    margin-top: 49px;
+font-display: flex;
+gap: 40px;
+}
+.wers{
+display: flex;
+gap: 40px;
+width: 25px;
+height: 25px;
+margin-top: 49px;
+margin-left: 300px;
+}
+@keyframes aylana{
+from{
+    transform: rotate(0deg);
+}to{
+    transform: rotate(360deg);
+} 
+}
+.image3{
+    position: absolute;
+    top: 170px;
+    left: 810px;
+}
+section img:hover{
+animation-name: yaqinlashish;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+}
+@keyframes yaqinlashish{
+from{
+transform: scale(1);
+}to{
+transform: scale(1.2);
+}
+}
+.h1{
+margin-top: 80px;
+margin-bottom: 80px;
+}
+.p2{
+font-size: 30px;
+font-weight: 400;
+}
+
+.commitment{
+    display: flex;
+    align-items: center;
+    gap: 318px;
+
+}
+.commitment-left img{
+    margin-top: 300px;
+
+}
+
+.commitment-right h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+.commitment-right p{
+    font-size: 18px;
+    font-weight: 400;
+}   
+
+.bg-color{
+    background-color: #C99B67;
+    margin-top: 216px;
+    padding: 109px 55px;
+    color: white;
+}
+
+
+.tepa{
+    transform: translateY(-240px);
+}
+
+
+.footer1{
+    margin-top: 0;
+}
+
